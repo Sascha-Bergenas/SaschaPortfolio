@@ -1,0 +1,39 @@
+:root {
+  --bg-main: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --accent: #3a4f4f;
+  --text-main: #d0d0d0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at 20% 30%, #1a1a1a, #050505);
+  color: var(--text-main);
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Orbitron;
+}
+
+/* lite subtil "Giger-smuts" */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("/noise.png");
+  opacity: 0.03;
+  pointer-events: none;
+}
