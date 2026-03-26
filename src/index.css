@@ -28,7 +28,6 @@ h3 {
   font-family: Orbitron;
 }
 
-/* lite subtil "Giger-smuts" */
 body::after {
   content: "";
   position: fixed;

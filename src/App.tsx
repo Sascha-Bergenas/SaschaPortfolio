@@ -65,9 +65,7 @@ function App() {
               </article>
               <article className="project-item">
                 <h3>Pokedéx</h3>
-                <p>
-                  Filtrera och hitta information om de första 151 pokémonsen.
-                </p>
+                <p>Filtrera och hitta information om de första 151 pokémon.</p>
                 <a
                   href="https://github.com/Sascha-Bergenas/NewPokeDex"
                   target="_blank"
