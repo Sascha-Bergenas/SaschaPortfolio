@@ -50,7 +50,7 @@ function App() {
         <Card>
           <section className="projects" aria-labelledby="projects">
             <h2 id="projects">Projekt</h2>
-            <div className="project-grid">
+            <div className="project-list">
               <article className="project-item">
                 <h3>Movie Watchlist</h3>
                 <p>Sökapp med API-data, filtrering och laddningstillstånd.</p>
