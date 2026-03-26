@@ -4,6 +4,22 @@
   padding: 1.25rem 0 2.5rem;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid color-mix(in srgb, #6e7f80 25%, transparent);
+  color: color-mix(in srgb, var(--text-main) 50%, transparent);
+  font-size: 0.85rem;
+}
+
+.footer .contact-icons {
+  margin-top: 0;
+}
+
 .contact-icons {
   display: flex;
   gap: 1.2rem;
@@ -69,7 +85,7 @@
   border-radius: 20px;
   padding: 1.8rem;
   width: min(960px, 94vw);
-  margin: 1rem auto;
+  margin: 2rem auto;
 
   box-shadow:
     inset 0 0 20px rgba(255, 255, 255, 0.02),
@@ -133,10 +149,33 @@
 
 .about,
 .projects,
+.skills,
 .contact {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  font-size: 0.78rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, #6e7f80 50%, transparent);
+  color: #6e7f80;
+  background: color-mix(in srgb, #3a4f4f 20%, transparent);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 .project-list {

@@ -16,14 +16,14 @@ function App() {
               Jag bygger snabba, tillgängliga och rena webbgränssnitt med React,
               TypeScript och modern CSS.
             </p>
-            {/* <div className="hero-actions">
+            <div className="hero-actions">
               <a className="button" href="#projects">
                 Se projekt
               </a>
               <a className="button button--ghost" href="#contact">
                 Kontakta mig
               </a>
-            </div> */}
+            </div>
           </section>
         </Card>
 
@@ -44,6 +44,22 @@ function App() {
               Jag siktar på att bygga gränssnitt som är enkla att använda och
               som håller över tid.
             </p>
+          </section>
+        </Card>
+
+        <Card>
+          <section className="skills" aria-labelledby="skills">
+            <h2 id="skills">Tekniker</h2>
+            <div className="skill-list">
+              <span className="skill-tag">JavaScript</span>
+              <span className="skill-tag">TypeScript</span>
+              <span className="skill-tag">React</span>
+              <span className="skill-tag">HTML</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">Git</span>
+              <span className="skill-tag">Vite</span>
+              <span className="skill-tag">REST API</span>
+            </div>
           </section>
         </Card>
 
@@ -93,40 +109,38 @@ function App() {
             </div>
           </section>
         </Card>
-
-        <Card>
-          <section className="contact" aria-labelledby="contact">
-            <h2 id="contact">Kontakt</h2>
-            <div className="contact-icons">
-              <a
-                href="mailto:Sascha.Bergenas@hotmail.com"
-                className="contact-link"
-                aria-label="Skicka e-post"
-              >
-                <FaEnvelope />
-              </a>
-              <a
-                href="https://github.com/Sascha-Bergenas"
-                target="_blank"
-                rel="noreferrer"
-                className="contact-link"
-                aria-label="GitHub"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://linkedin.com/in/sascha-bergenås-9b9679382"
-                target="_blank"
-                rel="noreferrer"
-                className="contact-link"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin />
-              </a>
-            </div>
-          </section>
-        </Card>
       </main>
+
+      <footer className="footer" id="contact">
+        <span>Kontakt</span>
+        <div className="contact-icons">
+          <a
+            href="mailto:Sascha.Bergenas@hotmail.com"
+            className="contact-link"
+            aria-label="Skicka e-post"
+          >
+            <FaEnvelope />
+          </a>
+          <a
+            href="https://github.com/Sascha-Bergenas"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://linkedin.com/in/sascha-bergenås-9b9679382"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
