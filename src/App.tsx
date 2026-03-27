@@ -76,7 +76,7 @@ function App() {
                   aria-label="Öppna Movie Watchlist på GitHub"
                 >
                   <img
-                    src="/projects/movie-watchlist.png"
+                    src="projects/movie-watchlist.png"
                     alt="Skarmbild av projektet Movie Watchlist"
                     className="project-image"
                     loading="lazy"
@@ -102,7 +102,7 @@ function App() {
                   aria-label="Öppna Pokedéx på GitHub"
                 >
                   <img
-                    src="/projects/pokedex.png"
+                    src="projects/pokedex.png"
                     alt="Skarmbild av projektet Pokedex"
                     className="project-image"
                     loading="lazy"
@@ -128,7 +128,7 @@ function App() {
                   aria-label="Öppna Zoan Project på GitHub"
                 >
                   <img
-                    src="/projects/zoan.png"
+                    src="projects/zoan.png"
                     alt="Skarmbild av projektet Zoan Project"
                     className="project-image"
                     loading="lazy"
