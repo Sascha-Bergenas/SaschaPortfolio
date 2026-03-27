@@ -16,10 +16,18 @@ html {
 }
 
 body {
-  background: radial-gradient(circle at 20% 30%, #1a1a1a, #050505);
+  background:
+    radial-gradient(circle at 16% 24%, rgba(58, 79, 79, 0.25), transparent 32%),
+    radial-gradient(
+      circle at 82% 6%,
+      rgba(110, 127, 128, 0.12),
+      transparent 34%
+    ),
+    linear-gradient(165deg, #0d0d0d 0%, #070707 55%, #050505 100%);
   color: var(--text-main);
   font-family: Inter, sans-serif;
   min-height: 100vh;
+  position: relative;
 }
 
 h1,
@@ -32,7 +40,38 @@ body::after {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("/noise.png");
-  opacity: 0.03;
+  background:
+    url("/noise.png"),
+    repeating-linear-gradient(
+      102deg,
+      rgba(110, 127, 128, 0.035) 0,
+      rgba(110, 127, 128, 0.035) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+  opacity: 0.05;
   pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -10% 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(110, 127, 128, 0.06),
+      transparent 52%
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(208, 208, 208, 0.015) 0,
+      rgba(208, 208, 208, 0.015) 1px,
+      transparent 1px,
+      transparent 22px
+    );
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: -1;
 }

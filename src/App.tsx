@@ -8,8 +8,8 @@ function App() {
     <div className="app">
       <Navbar />
       <main>
-        <Card>
-          <section className="hero" aria-labelledby="home">
+        <section className="hero-shell" aria-labelledby="home">
+          <div className="hero">
             <p className="eyebrow">Frontend-portfolio</p>
             <h1 id="home">Sascha Bergenås</h1>
             <p className="lead">
@@ -24,8 +24,8 @@ function App() {
                 Kontakta mig
               </a>
             </div>
-          </section>
-        </Card>
+          </div>
+        </section>
 
         <Card>
           <section className="about" aria-labelledby="about">
@@ -68,6 +68,12 @@ function App() {
             <h2 id="projects">Projekt</h2>
             <div className="project-list">
               <article className="project-item">
+                <img
+                  src="/projects/movie-watchlist.png"
+                  alt="Skarmbild av projektet Movie Watchlist"
+                  className="project-image"
+                  loading="lazy"
+                />
                 <h3>Movie Watchlist</h3>
                 <p>Sökapp med API-data, filtrering och laddningstillstånd.</p>
                 <a
@@ -80,6 +86,12 @@ function App() {
                 </a>
               </article>
               <article className="project-item">
+                <img
+                  src="/projects/pokedex.png"
+                  alt="Skarmbild av projektet Pokedex"
+                  className="project-image"
+                  loading="lazy"
+                />
                 <h3>Pokedéx</h3>
                 <p>Filtrera och hitta information om de första 151 pokémon.</p>
                 <a
@@ -92,6 +104,12 @@ function App() {
                 </a>
               </article>
               <article className="project-item">
+                <img
+                  src="/projects/zoan.png"
+                  alt="Skarmbild av projektet Zoan Project"
+                  className="project-image"
+                  loading="lazy"
+                />
                 <h3>Zoan Project</h3>
                 <p>
                   Produktivitetsapp med timer, kalender, AI-rekommendationer,
