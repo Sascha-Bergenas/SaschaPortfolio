@@ -68,12 +68,20 @@ function App() {
             <h2 id="projects">Projekt</h2>
             <div className="project-list">
               <article className="project-item">
-                <img
-                  src="/projects/movie-watchlist.png"
-                  alt="Skarmbild av projektet Movie Watchlist"
-                  className="project-image"
-                  loading="lazy"
-                />
+                <a
+                  href="https://github.com/Sascha-Bergenas/Movie-watchlist"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-image-link"
+                  aria-label="Öppna Movie Watchlist på GitHub"
+                >
+                  <img
+                    src="/projects/movie-watchlist.png"
+                    alt="Skarmbild av projektet Movie Watchlist"
+                    className="project-image"
+                    loading="lazy"
+                  />
+                </a>
                 <h3>Movie Watchlist</h3>
                 <p>Sökapp med API-data, filtrering och laddningstillstånd.</p>
                 <a
@@ -86,12 +94,20 @@ function App() {
                 </a>
               </article>
               <article className="project-item">
-                <img
-                  src="/projects/pokedex.png"
-                  alt="Skarmbild av projektet Pokedex"
-                  className="project-image"
-                  loading="lazy"
-                />
+                <a
+                  href="https://github.com/Sascha-Bergenas/NewPokeDex"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-image-link"
+                  aria-label="Öppna Pokedéx på GitHub"
+                >
+                  <img
+                    src="/projects/pokedex.png"
+                    alt="Skarmbild av projektet Pokedex"
+                    className="project-image"
+                    loading="lazy"
+                  />
+                </a>
                 <h3>Pokedéx</h3>
                 <p>Filtrera och hitta information om de första 151 pokémon.</p>
                 <a
@@ -104,12 +120,20 @@ function App() {
                 </a>
               </article>
               <article className="project-item">
-                <img
-                  src="/projects/zoan.png"
-                  alt="Skarmbild av projektet Zoan Project"
-                  className="project-image"
-                  loading="lazy"
-                />
+                <a
+                  href="https://github.com/Sascha-Bergenas/zoan-project"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-image-link"
+                  aria-label="Öppna Zoan Project på GitHub"
+                >
+                  <img
+                    src="/projects/zoan.png"
+                    alt="Skarmbild av projektet Zoan Project"
+                    className="project-image"
+                    loading="lazy"
+                  />
+                </a>
                 <h3>Zoan Project</h3>
                 <p>
                   Produktivitetsapp med timer, kalender, AI-rekommendationer,

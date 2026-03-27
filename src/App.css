@@ -61,12 +61,6 @@
   box-shadow:
     inset 0 0 20px rgba(255, 255, 255, 0.02),
     0 0 30px rgba(0, 0, 0, 0.8);
-
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
 }
 
 .hero-shell {
@@ -221,6 +215,24 @@
   box-shadow:
     inset 0 1px 0 rgba(208, 208, 208, 0.03),
     0 6px 16px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease,
+    border-color 0.24s ease;
+}
+
+.project-item:hover,
+.project-item:focus-within {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, #6e7f80 72%, transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(208, 208, 208, 0.08),
+    0 14px 26px rgba(0, 0, 0, 0.35);
+}
+
+.project-image-link {
+  display: block;
+  border-radius: 10px;
 }
 
 .project-image {
